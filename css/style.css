@@ -1,0 +1,20 @@
+html, body {
+    background:url('../assets/oldtimes.png') center center no-repeat;
+    height: 100%;
+    background-size:cover;
+}
+
+.logo {
+    position:absolute;
+    height: 25%;
+    left: 50%;
+    transform: scale(50%, 50%);
+    padding-top: 20px;
+}
+
+.intro {
+    color: darkgoldenrod;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.8em;
+}
