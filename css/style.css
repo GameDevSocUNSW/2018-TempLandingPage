@@ -4,15 +4,17 @@ html, body {
     background-size:cover;
 }
 
-.logo {
-    position:absolute;
-    height: 25%;
-    left: 50%;
+#logo img{
+    margin:0 auto !important;
+    padding-top:20px;
     transform: scale(50%, 50%);
-    padding-top: 20px;
+    height: auto;
+    width: auto;
+    max-height: 300px;
+    max-width: 300px;
 }
 
-.intro {
+#intro p{
     color: darkgoldenrod;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
