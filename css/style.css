@@ -4,6 +4,25 @@ html, body {
     background-size:cover;
 }
 
+#main {
+    background-color: crimson;
+    height: 100%;
+    background-size:cover;
+}
+
+#aboutus {
+    background-color: purple;
+    height: 100%;
+    background-size:cover;
+}
+
+#events {
+    background-color: pink;
+    height: 100%;
+    background-size:cover;
+}
+
+
 #logo img{
     margin:0 auto !important;
     padding-top:20px;
