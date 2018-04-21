@@ -49,6 +49,20 @@ h1 {
     font-size: 2em;
 }
 
+h2 {
+    color: #94c2c7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h3 {
+    color: #94c2c7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
 p {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -57,6 +71,10 @@ p {
 
 
 /* Sections */
+
+.nav-item {
+    padding: 0px 10px;
+}
 
 #main {
     background:url('../assets/header.png') center center no-repeat;
@@ -73,13 +91,20 @@ p {
     background-color: #435066;
 }
 
+#merch {
+    background-color: #7d69ff;
+}
+
+#contact {
+    background-color: #435066;
+}
 
 /* Images */
 .navlogo {
     height: auto;
     width: auto;
-    max-height:50px;
-    max-width:50px;
+    max-height:75px;
+    max-width:75px;
 }
 
 .aboutimg {
