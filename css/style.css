@@ -1,3 +1,4 @@
+/*
 html, body {
     background:url('../assets/oldtimes.png') center center no-repeat;
     height: 100%;
@@ -38,4 +39,53 @@ html, body {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.8em;
+}
+*/
+
+/* Fonts */
+h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+}
+
+p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+
+/* Sections */
+
+#main {
+    background:url('../assets/header.png') center center no-repeat;
+    background-color: #94c2c7;
+    height: 100%;
+    min-height: 800px;
+}
+
+#about {
+    background-color: #7d69ff;
+}
+
+#events {
+    background-color: #435066;
+}
+
+
+/* Images */
+.navlogo {
+    height: auto;
+    width: auto;
+    max-height:50px;
+    max-width:50px;
+}
+
+.aboutimg {
+    height: auto;
+    width: auto;
+    max-height:300px;
+    max-width:300px;
+    border-radius: 50%;
 }
