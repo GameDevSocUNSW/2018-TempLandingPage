@@ -69,6 +69,21 @@ p {
     font-size: 1.5em;
 }
 
+.link {
+    color:palevioletred;
+}
+
+.link:hover {
+    color: pink;
+}
+
+.card-title {
+    color: #94c2c7;
+}
+
+.card-text {
+    color: black;
+}
 
 /* Sections */
 
@@ -88,27 +103,27 @@ p {
 }
 
 #about {
-    background-color: #7d69ff;
+    background-color: #435066;
 }
 
 #events {
-    background-color: #435066;
+    background-color: #9dc0ce;
 }
 
 #merch {
-    background-color: #7d69ff;
+    background-color: #435066;
 }
 
 #contact {
-    background-color: #435066;
+    background-color: #9dc0ce;
 }
 
 /* Images */
 .navlogo {
     height: auto;
     width: auto;
-    max-height:75px;
-    max-width:75px;
+    max-height:40px;
+    max-width:40px;
 }
 
 .aboutimg {
@@ -127,4 +142,9 @@ p {
 
 .btn:hover {
     background-color: pink;
+}
+
+/* Others */
+.card {
+    width: 18rem;
 }
